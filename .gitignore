@@ -1,0 +1,16 @@
+*/project.xcworkspace/xcuserdata/
+**/xcuserdata/*/*/**
+!**/xcuserdata/*/xcschemes/**
+.DS_Store
+*.mode1v3
+*.pbxuser
+build
+junk
+sparkle_private.pem
+Plugins/Amazon/Access.h
+App/resources/CowHead.png
+App/resources/faded_cow.png
+App/resources/faded_cow_error.png
+App/resources/faded_cow_fatal.png
+App/resources/faded_cow_multiple.png
+App/resources/presets.png

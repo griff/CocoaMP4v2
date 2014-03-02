@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B25635416BEAC580018A7E1 /* MP4Metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B25635216BEAC580018A7E1 /* MP4Metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B25635516BEAC580018A7E1 /* MP4Metadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B25635316BEAC580018A7E1 /* MP4Metadata.m */; };
+		1B26C13516703A340095B8A5 /* MP4File.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C13316703A340095B8A5 /* MP4File.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B26C13616703A340095B8A5 /* MP4File.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B26C13416703A340095B8A5 /* MP4File.m */; };
+		1B26C13916703AAF0095B8A5 /* MP4Tracks.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C13716703AAF0095B8A5 /* MP4Tracks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B26C13A16703AAF0095B8A5 /* MP4Tracks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B26C13816703AAF0095B8A5 /* MP4Tracks.m */; };
+		1B37E4DF18B1DD61009A7C95 /* MP4Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B37E4DD18B1DD61009A7C95 /* MP4Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1B37E4E018B1DD61009A7C95 /* MP4Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B37E4DE18B1DD61009A7C95 /* MP4Internal.m */; };
+		1B37E4E318B98F52009A7C95 /* sample.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C12D167030E00095B8A5 /* sample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B37E4E418B98F52009A7C95 /* streaming.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C12E167030E00095B8A5 /* streaming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B37E4E518B98F52009A7C95 /* track_prop.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C12F167030E00095B8A5 /* track_prop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B37E4E618B98F52009A7C95 /* track.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C130167030E00095B8A5 /* track.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B37E4E718B98F56009A7C95 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C12A167030E00095B8A5 /* platform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B37E4E818B98F56009A7C95 /* project.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C12B167030E00095B8A5 /* project.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B37E4E918B98F72009A7C95 /* chapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C122167030E00095B8A5 /* chapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B37E4EA18B98F72009A7C95 /* file_prop.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C123167030E00095B8A5 /* file_prop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B37E4EB18B98F72009A7C95 /* file.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C124167030E00095B8A5 /* file.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B37E4EC18B98F72009A7C95 /* general.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C125167030E00095B8A5 /* general.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B37E4ED18B98F72009A7C95 /* isma.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C126167030E00095B8A5 /* isma.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B37E4EE18B98F72009A7C95 /* itmf_generic.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C127167030E00095B8A5 /* itmf_generic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B37E4EF18B98F72009A7C95 /* itmf_tags.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26C128167030E00095B8A5 /* itmf_tags.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B37E4F118B98FF5009A7C95 /* mp4v2.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B37E4F018B98FF5009A7C95 /* mp4v2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B3F536C184B9BE1005BF72F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3F536B184B9BE1005BF72F /* Foundation.framework */; };
+		1B3F5374184BA0FB005BF72F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3F5373184BA0FB005BF72F /* XCTest.framework */; };
+		1B472D6718C2A63F0092A4BD /* MP4Rating.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B472D6518C2A63F0092A4BD /* MP4Rating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B472D6818C2A63F0092A4BD /* MP4Rating.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B472D6618C2A63F0092A4BD /* MP4Rating.m */; };
+		1B472D6B18C2B1620092A4BD /* functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B472D6918C2B1620092A4BD /* functions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B472D6C18C2B1620092A4BD /* functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B472D6A18C2B1620092A4BD /* functions.m */; };
+		1B472D6E18C2C20E0092A4BD /* Ratings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B472D6D18C2C20E0092A4BD /* Ratings.plist */; };
+		1B941C4316E41048001F1173 /* CocoaMP4v2.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B941C4216E41048001F1173 /* CocoaMP4v2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B941C8916E44F66001F1173 /* MP4MutableMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B941C8716E44F66001F1173 /* MP4MutableMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B941C8A16E44F66001F1173 /* MP4MutableMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B941C8816E44F66001F1173 /* MP4MutableMetadata.m */; };
+		1BBD5B5518BA1D6A00E8A307 /* MP4MetadataItmf.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBD5B5318BA1D6A00E8A307 /* MP4MetadataItmf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BBD5B5618BA1D6A00E8A307 /* MP4MetadataItmf.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD5B5418BA1D6A00E8A307 /* MP4MetadataItmf.m */; };
+		1BBD5B5818BA1E4900E8A307 /* MP4MetadataItmf_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBD5B5718BA1E4900E8A307 /* MP4MetadataItmf_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1BBD5B5F18BA2A3800E8A307 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD5B5D18BA2A3800E8A307 /* InfoPlist.strings */; };
+		1BBD5B6218BA2B1C00E8A307 /* MP4MutableFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBD5B6018BA2B1C00E8A307 /* MP4MutableFile.h */; };
+		1BBD5B6518BA2B4600E8A307 /* MP4MutableFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD5B6418BA2B4600E8A307 /* MP4MutableFile.m */; };
+		1BBD5B6818BA2F3500E8A307 /* MP4EmptyFileTagsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD5B6718BA2F3500E8A307 /* MP4EmptyFileTagsTests.m */; };
+		1BBD5B6B18BA2FA600E8A307 /* Empty.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD5B6A18BA2FA600E8A307 /* Empty.m4v */; };
+		1BBD5B6E18BA34B300E8A307 /* MP4AllTagsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD5B6D18BA34B300E8A307 /* MP4AllTagsTests.m */; };
+		1BBD5B7018BA34DB00E8A307 /* AllTags.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD5B6F18BA34DB00E8A307 /* AllTags.m4v */; };
+		1BDB6477186C85AF0079E4A4 /* MP4EmptyTagsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B941C4016E40FF4001F1173 /* MP4EmptyTagsTests.m */; };
+		1BDB6478186C87F20079E4A4 /* CocoaMP4v2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* CocoaMP4v2.framework */; };
+		1BDB647A186C880E0079E4A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDB6479186C880E0079E4A4 /* Foundation.framework */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B3F537E184BA0FB005BF72F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = CocoaMP4v2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1B25635216BEAC580018A7E1 /* MP4Metadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4Metadata.h; sourceTree = "<group>"; };
+		1B25635316BEAC580018A7E1 /* MP4Metadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP4Metadata.m; sourceTree = "<group>"; };
+		1B26C122167030E00095B8A5 /* chapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chapter.h; path = "External/mp4v2-2.0.0/include/mp4v2/chapter.h"; sourceTree = "<group>"; };
+		1B26C123167030E00095B8A5 /* file_prop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = file_prop.h; path = "External/mp4v2-2.0.0/include/mp4v2/file_prop.h"; sourceTree = "<group>"; };
+		1B26C124167030E00095B8A5 /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = file.h; path = "External/mp4v2-2.0.0/include/mp4v2/file.h"; sourceTree = "<group>"; };
+		1B26C125167030E00095B8A5 /* general.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = general.h; path = "External/mp4v2-2.0.0/include/mp4v2/general.h"; sourceTree = "<group>"; };
+		1B26C126167030E00095B8A5 /* isma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isma.h; path = "External/mp4v2-2.0.0/include/mp4v2/isma.h"; sourceTree = "<group>"; };
+		1B26C127167030E00095B8A5 /* itmf_generic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = itmf_generic.h; path = "External/mp4v2-2.0.0/include/mp4v2/itmf_generic.h"; sourceTree = "<group>"; };
+		1B26C128167030E00095B8A5 /* itmf_tags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = itmf_tags.h; path = "External/mp4v2-2.0.0/include/mp4v2/itmf_tags.h"; sourceTree = "<group>"; };
+		1B26C129167030E00095B8A5 /* mp4v2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mp4v2.h; path = "External/mp4v2-2.0.0/include/mp4v2/mp4v2.h"; sourceTree = "<group>"; };
+		1B26C12A167030E00095B8A5 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = platform.h; path = "External/mp4v2-2.0.0/include/mp4v2/platform.h"; sourceTree = "<group>"; };
+		1B26C12B167030E00095B8A5 /* project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = project.h; path = "External/mp4v2-2.0.0/include/mp4v2/project.h"; sourceTree = "<group>"; };
+		1B26C12C167030E00095B8A5 /* project.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = project.h.in; path = "External/mp4v2-2.0.0/include/mp4v2/project.h.in"; sourceTree = "<group>"; };
+		1B26C12D167030E00095B8A5 /* sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sample.h; path = "External/mp4v2-2.0.0/include/mp4v2/sample.h"; sourceTree = "<group>"; };
+		1B26C12E167030E00095B8A5 /* streaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = streaming.h; path = "External/mp4v2-2.0.0/include/mp4v2/streaming.h"; sourceTree = "<group>"; };
+		1B26C12F167030E00095B8A5 /* track_prop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = track_prop.h; path = "External/mp4v2-2.0.0/include/mp4v2/track_prop.h"; sourceTree = "<group>"; };
+		1B26C130167030E00095B8A5 /* track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = track.h; path = "External/mp4v2-2.0.0/include/mp4v2/track.h"; sourceTree = "<group>"; };
+		1B26C131167032F50095B8A5 /* libmp4v2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmp4v2.a; path = "External/mp4v2-2.0.0/build/code/all/.libs/libmp4v2.a"; sourceTree = "<group>"; };
+		1B26C13316703A340095B8A5 /* MP4File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4File.h; sourceTree = "<group>"; };
+		1B26C13416703A340095B8A5 /* MP4File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP4File.m; sourceTree = "<group>"; };
+		1B26C13716703AAF0095B8A5 /* MP4Tracks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4Tracks.h; sourceTree = "<group>"; };
+		1B26C13816703AAF0095B8A5 /* MP4Tracks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP4Tracks.m; sourceTree = "<group>"; };
+		1B37E4DD18B1DD61009A7C95 /* MP4Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4Internal.h; sourceTree = "<group>"; };
+		1B37E4DE18B1DD61009A7C95 /* MP4Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP4Internal.m; sourceTree = "<group>"; };
+		1B37E4E118B52EC9009A7C95 /* MP4EmptyTagsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4EmptyTagsTests.h; sourceTree = "<group>"; };
+		1B37E4E218B57837009A7C95 /* MP4Metadata_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MP4Metadata_Private.h; sourceTree = "<group>"; };
+		1B37E4F018B98FF5009A7C95 /* mp4v2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mp4v2.h; sourceTree = "<group>"; };
+		1B3F536B184B9BE1005BF72F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B3F5371184BA0FB005BF72F /* CocoaMP4v2 Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CocoaMP4v2 Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3F5373184BA0FB005BF72F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = /Applications/Xcode.app/Contents/Developer/Library/Frameworks/XCTest.framework; sourceTree = "<absolute>"; };
+		1B3F5377184BA0FB005BF72F /* CocoaMP4v2 Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaMP4v2 Tests-Info.plist"; sourceTree = "<group>"; };
+		1B3F537D184BA0FB005BF72F /* CocoaMP4v2 Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaMP4v2 Tests-Prefix.pch"; sourceTree = "<group>"; };
+		1B472D6518C2A63F0092A4BD /* MP4Rating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MP4Rating.h; path = ../src/MP4Rating.h; sourceTree = "<group>"; };
+		1B472D6618C2A63F0092A4BD /* MP4Rating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP4Rating.m; sourceTree = "<group>"; };
+		1B472D6918C2B1620092A4BD /* functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = functions.h; path = ../src/functions.h; sourceTree = "<group>"; };
+		1B472D6A18C2B1620092A4BD /* functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = functions.m; sourceTree = "<group>"; };
+		1B472D6D18C2C20E0092A4BD /* Ratings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Ratings.plist; sourceTree = "<group>"; };
+		1B941C4016E40FF4001F1173 /* MP4EmptyTagsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP4EmptyTagsTests.m; sourceTree = "<group>"; };
+		1B941C4216E41048001F1173 /* CocoaMP4v2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaMP4v2.h; sourceTree = "<group>"; };
+		1B941C8716E44F66001F1173 /* MP4MutableMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4MutableMetadata.h; sourceTree = "<group>"; };
+		1B941C8816E44F66001F1173 /* MP4MutableMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP4MutableMetadata.m; sourceTree = "<group>"; };
+		1BBD5B5318BA1D6A00E8A307 /* MP4MetadataItmf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4MetadataItmf.h; sourceTree = "<group>"; };
+		1BBD5B5418BA1D6A00E8A307 /* MP4MetadataItmf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP4MetadataItmf.m; sourceTree = "<group>"; };
+		1BBD5B5718BA1E4900E8A307 /* MP4MetadataItmf_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4MetadataItmf_Private.h; sourceTree = "<group>"; };
+		1BBD5B5E18BA2A3800E8A307 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BBD5B6018BA2B1C00E8A307 /* MP4MutableFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4MutableFile.h; sourceTree = "<group>"; };
+		1BBD5B6418BA2B4600E8A307 /* MP4MutableFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP4MutableFile.m; sourceTree = "<group>"; };
+		1BBD5B6618BA2F3500E8A307 /* MP4EmptyFileTagsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4EmptyFileTagsTests.h; sourceTree = "<group>"; };
+		1BBD5B6718BA2F3500E8A307 /* MP4EmptyFileTagsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP4EmptyFileTagsTests.m; sourceTree = "<group>"; };
+		1BBD5B6A18BA2FA600E8A307 /* Empty.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Empty.m4v; sourceTree = "<group>"; };
+		1BBD5B6C18BA34B300E8A307 /* MP4AllTagsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4AllTagsTests.h; sourceTree = "<group>"; };
+		1BBD5B6D18BA34B300E8A307 /* MP4AllTagsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP4AllTagsTests.m; sourceTree = "<group>"; };
+		1BBD5B6F18BA34DB00E8A307 /* AllTags.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = AllTags.m4v; sourceTree = "<group>"; };
+		1BDB6479186C880E0079E4A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32DBCF5E0370ADEE00C91783 /* CocoaMP4v2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaMP4v2_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* CocoaMP4v2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaMP4v2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B3F536E184BA0FB005BF72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDB647A186C880E0079E4A4 /* Foundation.framework in Frameworks */,
+				1BDB6478186C87F20079E4A4 /* CocoaMP4v2.framework in Frameworks */,
+				1B3F5374184BA0FB005BF72F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3F536C184B9BE1005BF72F /* Foundation.framework in Frameworks */,
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* CocoaMP4v2.framework */,
+				1B3F5371184BA0FB005BF72F /* CocoaMP4v2 Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* CocoaMP4v2 */ = {
+			isa = PBXGroup;
+			children = (
+				1B26C120167030B40095B8A5 /* MP4v2 */,
+				1B941C3E16E40FBF001F1173 /* Tests */,
+				1BBD5B5A18BA283D00E8A307 /* Headers */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				1B3F5372184BA0FB005BF72F /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = CocoaMP4v2;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B472D6D18C2C20E0092A4BD /* Ratings.plist */,
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1BBD5B5918BA1E6D00E8A307 /* Mutable */,
+				1B26C13416703A340095B8A5 /* MP4File.m */,
+				1B25635316BEAC580018A7E1 /* MP4Metadata.m */,
+				1B37E4E218B57837009A7C95 /* MP4Metadata_Private.h */,
+				1B37E4DD18B1DD61009A7C95 /* MP4Internal.h */,
+				1B37E4DE18B1DD61009A7C95 /* MP4Internal.m */,
+				1BBD5B5418BA1D6A00E8A307 /* MP4MetadataItmf.m */,
+				1BBD5B5718BA1E4900E8A307 /* MP4MetadataItmf_Private.h */,
+				1B472D6618C2A63F0092A4BD /* MP4Rating.m */,
+				1B472D6A18C2B1620092A4BD /* functions.m */,
+			);
+			name = Classes;
+			path = src;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B3F536B184B9BE1005BF72F /* Foundation.framework */,
+				1B26C131167032F50095B8A5 /* libmp4v2.a */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1B26C120167030B40095B8A5 /* MP4v2 */ = {
+			isa = PBXGroup;
+			children = (
+				1B26C121167030C20095B8A5 /* headers */,
+			);
+			name = MP4v2;
+			sourceTree = "<group>";
+		};
+		1B26C121167030C20095B8A5 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				1B26C122167030E00095B8A5 /* chapter.h */,
+				1B26C123167030E00095B8A5 /* file_prop.h */,
+				1B26C124167030E00095B8A5 /* file.h */,
+				1B26C125167030E00095B8A5 /* general.h */,
+				1B26C126167030E00095B8A5 /* isma.h */,
+				1B26C127167030E00095B8A5 /* itmf_generic.h */,
+				1B26C128167030E00095B8A5 /* itmf_tags.h */,
+				1B26C129167030E00095B8A5 /* mp4v2.h */,
+				1B26C12A167030E00095B8A5 /* platform.h */,
+				1B26C12B167030E00095B8A5 /* project.h */,
+				1B26C12C167030E00095B8A5 /* project.h.in */,
+				1B26C12D167030E00095B8A5 /* sample.h */,
+				1B26C12E167030E00095B8A5 /* streaming.h */,
+				1B26C12F167030E00095B8A5 /* track_prop.h */,
+				1B26C130167030E00095B8A5 /* track.h */,
+			);
+			name = headers;
+			sourceTree = "<group>";
+		};
+		1B3F5372184BA0FB005BF72F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB6479186C880E0079E4A4 /* Foundation.framework */,
+				1B3F5373184BA0FB005BF72F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B941C3E16E40FBF001F1173 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1BBD5B6918BA2F9200E8A307 /* Files */,
+				1BBD5B5C18BA29BE00E8A307 /* Supporting Files */,
+				1B941C4016E40FF4001F1173 /* MP4EmptyTagsTests.m */,
+				1B37E4E118B52EC9009A7C95 /* MP4EmptyTagsTests.h */,
+				1BBD5B6618BA2F3500E8A307 /* MP4EmptyFileTagsTests.h */,
+				1BBD5B6718BA2F3500E8A307 /* MP4EmptyFileTagsTests.m */,
+				1BBD5B6C18BA34B300E8A307 /* MP4AllTagsTests.h */,
+				1BBD5B6D18BA34B300E8A307 /* MP4AllTagsTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1BBD5B5918BA1E6D00E8A307 /* Mutable */ = {
+			isa = PBXGroup;
+			children = (
+				1BBD5B6418BA2B4600E8A307 /* MP4MutableFile.m */,
+				1B26C13816703AAF0095B8A5 /* MP4Tracks.m */,
+				1B941C8816E44F66001F1173 /* MP4MutableMetadata.m */,
+			);
+			name = Mutable;
+			sourceTree = "<group>";
+		};
+		1BBD5B5A18BA283D00E8A307 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1BBD5B5B18BA284700E8A307 /* Mutable */,
+				1B26C13316703A340095B8A5 /* MP4File.h */,
+				1B25635216BEAC580018A7E1 /* MP4Metadata.h */,
+				1B941C4216E41048001F1173 /* CocoaMP4v2.h */,
+				1B37E4F018B98FF5009A7C95 /* mp4v2.h */,
+				1BBD5B5318BA1D6A00E8A307 /* MP4MetadataItmf.h */,
+				1B472D6918C2B1620092A4BD /* functions.h */,
+				1B472D6518C2A63F0092A4BD /* MP4Rating.h */,
+			);
+			name = Headers;
+			path = include;
+			sourceTree = "<group>";
+		};
+		1BBD5B5B18BA284700E8A307 /* Mutable */ = {
+			isa = PBXGroup;
+			children = (
+				1B26C13716703AAF0095B8A5 /* MP4Tracks.h */,
+				1B941C8716E44F66001F1173 /* MP4MutableMetadata.h */,
+				1BBD5B6018BA2B1C00E8A307 /* MP4MutableFile.h */,
+			);
+			name = Mutable;
+			sourceTree = "<group>";
+		};
+		1BBD5B5C18BA29BE00E8A307 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BBD5B5D18BA2A3800E8A307 /* InfoPlist.strings */,
+				1B3F5377184BA0FB005BF72F /* CocoaMP4v2 Tests-Info.plist */,
+				1B3F537D184BA0FB005BF72F /* CocoaMP4v2 Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BBD5B6918BA2F9200E8A307 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BBD5B6F18BA34DB00E8A307 /* AllTags.m4v */,
+				1BBD5B6A18BA2FA600E8A307 /* Empty.m4v */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* CocoaMP4v2_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B37E4EB18B98F72009A7C95 /* file.h in Headers */,
+				1B37E4E618B98F52009A7C95 /* track.h in Headers */,
+				1B26C13516703A340095B8A5 /* MP4File.h in Headers */,
+				1B37E4E818B98F56009A7C95 /* project.h in Headers */,
+				1B37E4E918B98F72009A7C95 /* chapter.h in Headers */,
+				1B26C13916703AAF0095B8A5 /* MP4Tracks.h in Headers */,
+				1B25635416BEAC580018A7E1 /* MP4Metadata.h in Headers */,
+				1B37E4E718B98F56009A7C95 /* platform.h in Headers */,
+				1BBD5B5818BA1E4900E8A307 /* MP4MetadataItmf_Private.h in Headers */,
+				1B37E4E418B98F52009A7C95 /* streaming.h in Headers */,
+				1B472D6B18C2B1620092A4BD /* functions.h in Headers */,
+				1B941C8916E44F66001F1173 /* MP4MutableMetadata.h in Headers */,
+				1B37E4DF18B1DD61009A7C95 /* MP4Internal.h in Headers */,
+				1B37E4E318B98F52009A7C95 /* sample.h in Headers */,
+				1B941C4316E41048001F1173 /* CocoaMP4v2.h in Headers */,
+				1BBD5B5518BA1D6A00E8A307 /* MP4MetadataItmf.h in Headers */,
+				1B472D6718C2A63F0092A4BD /* MP4Rating.h in Headers */,
+				1B37E4EC18B98F72009A7C95 /* general.h in Headers */,
+				1B37E4E518B98F52009A7C95 /* track_prop.h in Headers */,
+				1BBD5B6218BA2B1C00E8A307 /* MP4MutableFile.h in Headers */,
+				1B37E4ED18B98F72009A7C95 /* isma.h in Headers */,
+				1B37E4EE18B98F72009A7C95 /* itmf_generic.h in Headers */,
+				1B37E4EF18B98F72009A7C95 /* itmf_tags.h in Headers */,
+				1B37E4F118B98FF5009A7C95 /* mp4v2.h in Headers */,
+				1B37E4EA18B98F72009A7C95 /* file_prop.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B3F5370184BA0FB005BF72F /* CocoaMP4v2 Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B3F5380184BA0FB005BF72F /* Build configuration list for PBXNativeTarget "CocoaMP4v2 Tests" */;
+			buildPhases = (
+				1B3F536D184BA0FB005BF72F /* Sources */,
+				1B3F536E184BA0FB005BF72F /* Frameworks */,
+				1B3F536F184BA0FB005BF72F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B3F537F184BA0FB005BF72F /* PBXTargetDependency */,
+			);
+			name = "CocoaMP4v2 Tests";
+			productName = "CocoaMP4v2 Tests";
+			productReference = 1B3F5371184BA0FB005BF72F /* CocoaMP4v2 Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DC2EF4F0486A6940098B216 /* CocoaMP4v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "CocoaMP4v2" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaMP4v2;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = CocoaMP4v2;
+			productReference = 8DC2EF5B0486A6940098B216 /* CocoaMP4v2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					1B3F5370184BA0FB005BF72F = {
+						TestTargetID = 8DC2EF4F0486A6940098B216;
+					};
+				};
+			};
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "CocoaMP4v2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* CocoaMP4v2 */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* CocoaMP4v2 */,
+				1B3F5370184BA0FB005BF72F /* CocoaMP4v2 Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B3F536F184BA0FB005BF72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBD5B5F18BA2A3800E8A307 /* InfoPlist.strings in Resources */,
+				1BBD5B7018BA34DB00E8A307 /* AllTags.m4v in Resources */,
+				1BBD5B6B18BA2FA600E8A307 /* Empty.m4v in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				1B472D6E18C2C20E0092A4BD /* Ratings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B3F536D184BA0FB005BF72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBD5B6E18BA34B300E8A307 /* MP4AllTagsTests.m in Sources */,
+				1BBD5B6818BA2F3500E8A307 /* MP4EmptyFileTagsTests.m in Sources */,
+				1BDB6477186C85AF0079E4A4 /* MP4EmptyTagsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B26C13616703A340095B8A5 /* MP4File.m in Sources */,
+				1B472D6C18C2B1620092A4BD /* functions.m in Sources */,
+				1B37E4E018B1DD61009A7C95 /* MP4Internal.m in Sources */,
+				1B26C13A16703AAF0095B8A5 /* MP4Tracks.m in Sources */,
+				1B25635516BEAC580018A7E1 /* MP4Metadata.m in Sources */,
+				1B472D6818C2A63F0092A4BD /* MP4Rating.m in Sources */,
+				1BBD5B5618BA1D6A00E8A307 /* MP4MetadataItmf.m in Sources */,
+				1BBD5B6518BA2B4600E8A307 /* MP4MutableFile.m in Sources */,
+				1B941C8A16E44F66001F1173 /* MP4MutableMetadata.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B3F537F184BA0FB005BF72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* CocoaMP4v2 */;
+			targetProxy = 1B3F537E184BA0FB005BF72F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BBD5B5D18BA2A3800E8A307 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BBD5B5E18BA2A3800E8A307 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B3F5381184BA0FB005BF72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/CocoaMP4v2 Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Tests/CocoaMP4v2 Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1B3F5382184BA0FB005BF72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/CocoaMP4v2 Tests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Tests/CocoaMP4v2 Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CocoaMP4v2_Prefix.pch;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/External/mp4v2-2.0.0/include",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External/mp4v2-2.0.0/build/code/all/.libs\"",
+				);
+				OTHER_LDFLAGS = (
+					"External/mp4v2-2.0.0/build/code/all/.libs/libmp4v2.a",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = CocoaMP4v2;
+				WARNING_CFLAGS = "-Wconversion";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CocoaMP4v2_Prefix.pch;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/External/mp4v2-2.0.0/include",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External/mp4v2-2.0.0/build/code/all/.libs\"",
+				);
+				PRODUCT_NAME = CocoaMP4v2;
+				WARNING_CFLAGS = "-Wconversion";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B3F5380184BA0FB005BF72F /* Build configuration list for PBXNativeTarget "CocoaMP4v2 Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B3F5381184BA0FB005BF72F /* Debug */,
+				1B3F5382184BA0FB005BF72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "CocoaMP4v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "CocoaMP4v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
